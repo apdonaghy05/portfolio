@@ -1,0 +1,168 @@
+.container{
+    margin:1rem 6rem 0rem 6rem;
+
+}
+
+.container_2{
+margin: 4rem 6rem 4rem 6rem;
+}
+
+.background_stretch{
+   background-color: #3DBDFF;
+   padding-top:2rem;
+   height:5rem;
+   margin-top:0rem;
+}
+/*name link states*/
+header {
+  background-color: #3DBDFF;
+ 
+}
+
+.white_background{
+  background-color: white;
+  padding:.75rem;
+  padding-top:4rem;
+  border-radius: 10px;
+}
+
+a{
+  text-decoration: none;
+  font-family: Arial, sans-serif;
+}
+
+header a{
+  font-size:1.15em;
+  padding:2em;
+  letter-spacing: .07rem;
+}
+
+header a:link{
+  color:#3DBDFF;
+}
+
+header a:visited{
+  color:#3DBDFF;
+}
+
+header a:hover{
+  color:#FF3B00;
+}
+
+/*Nav link states*/
+
+header nav ul li a{
+  font-size:.9em;
+  letter-spacing: .15rem;
+  font-weight:100;
+  padding:0;
+}
+
+header nav a:link{
+  color:white;
+}
+
+header nav a:visited{
+  color:white;
+}
+
+header nav a:hover{
+  color:#FF3B00;
+}
+
+
+header ul li{
+  display:inline-flex
+}
+
+header p{
+  display:inline-flex;
+  padding:0;
+  margin:0rem .2rem 0rem .2rem;
+}
+
+
+header nav {
+  float:right;
+   
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+
+}
+
+.center{
+  text-align:center;
+}
+
+/*main section */
+
+.inside_container{
+  display:flex;
+  flex-wrap:nowrap;
+  margin-bottom:-.9rem;
+}
+
+.container_2 img{
+  width:100%;
+}
+
+.link_image{
+  margin-right: .1rem;
+  }
+
+
+/*link text*/
+article a p{
+  text-align:center;
+  margin-top:-.14rem;
+  color: darkgray;
+  font-size: 1rem;
+  letter-spacing: .05rem;
+  background-color:#363636;
+  padding-top:.8rem;
+  padding-bottom:2.5rem;
+}
+
+/*footer*/
+
+footer nav ul li a{
+  font-size:.9em;
+  letter-spacing: .15rem;
+  font-weight:100;
+  padding:0;
+  text-align: center;
+}
+
+footer nav a:link{
+  color:white;
+}
+
+footer nav a:visited{
+  color:white;
+}
+
+footer nav a:hover{
+  color:#FF3B00;
+}
+
+
+footer ul li{
+  display:inline-flex;
+   
+}
+
+footer nav{
+  width:9rem;
+  margin: 0px auto;
+  
+}
+
+nav p{
+  display:inline-flex;
+  padding:0;
+  margin:0rem .2rem 0rem .2rem;
+}
