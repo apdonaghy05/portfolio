@@ -23,7 +23,7 @@
 }
 
 .background_stretch_bottom{
-   background-color:#DFE2E0;
+   background-color:#E9ECEB;
    padding-top:2rem;
    height:6rem;
    margin-bottom:0rem;
@@ -40,12 +40,26 @@
    text-align: center;
 }
 
-
-
 a{
   text-decoration: none;
+}
+
+a:hover{
+  opacity: .5;
+  transition: opacity .25s ease-in-out;
+  -moz-transition: opacity .25s ease-in-out;
+  -webkit-transition: opacity .25s ease-in-out;
   
 }
+
+
+
+header a img{
+max-width:25%;
+margin-bottom:3%;
+}
+
+
 
 
 header nav{
@@ -75,6 +89,10 @@ header nav a:visited{
 
 header nav a:hover{
   color:#FF3B00;
+  opacity: 1;
+  transition: opacity .25s ease-in-out;
+  -moz-transition: opacity .25s ease-in-out;
+  -webkit-transition: opacity .25s ease-in-out;
 }
 
 
@@ -216,10 +234,6 @@ article{
   margin-bottom: 40%;
 }
 
-header a img{
-max-width:25%;
-  margin-bottom:3%;
-}
 
 .copyright{
  
@@ -227,4 +241,30 @@ max-width:25%;
   display: inline-flex;
   font-weight:300;
   font-size:.9rem;
+}
+
+.fix{
+  
+  z-index: 1; 
+  position:fixed;
+  bottom:0px;
+  height:auto;
+  width:100%;"
+  
+}
+
+
+/*gg page*/
+
+.posters{
+  max-width: 636px;
+  margin:0 auto;
+  margin-top:5%;
+}
+
+h5{
+  font-size:1.4rem;
+  color:#1E90FF;
+  letter-spacing: .06rem;
+  margin-bottom:2%;
 }
